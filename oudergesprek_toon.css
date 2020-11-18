@@ -1,0 +1,172 @@
+header{
+    width: 100%;
+    height: 75px;
+    background: rgba(0, 85, 147, 0.85);
+  }
+  
+  body {
+    margin: 0 auto;
+    padding: 0;
+    /*margin-top: 3rem;*/
+    background-color: white;
+  }
+  
+  a{
+  text-decoration: none;
+  }
+
+  
+  .inlogknop1{
+  position: absolute;
+  width: 125px;
+  height: 30px;
+  left: 80%;
+  top: 6px;
+  background-color: white;
+  text-align: center;
+  margin-top: 10px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .inlogknop2{
+  position: absolute;
+  width: 125px;
+  height: 30px;
+  left: 90%;
+  top: 6px;
+  margin-top: 10px;
+  background-color: white;
+  text-align: center;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  /*h1{
+    margin-top: 18px;
+  }*/
+  
+  .ruimte{
+    background: #F0F0F0;
+    width: 100%;
+    height: 80px;
+  }
+  
+  footer{
+    height: 250px;
+    overflow: hidden;
+    background: #78AAF4;
+  }
+  
+  .foto{
+    height: 150px;
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 50px; 
+    float: left;
+  }
+  
+  .fotoboven{
+    height:50px;
+    width: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    float: left;
+  }
+  
+  .footertekst{
+    /* background-color: white; */
+    width: 100px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1em;
+    overflow: hidden;
+    padding: 10px;
+    color: blanchedalmond;
+  }
+  
+ 
+  .ruimte{
+    background: #F0F0F0;
+    width: 100%;
+    height: 80px;
+  }
+  
+  .aanmeldknop1{
+  width: 125px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  /*border: 1px solid #000000;*/
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  float: right;
+  margin-right: 300px;
+  margin-top: -75px;
+  }
+  
+  .aanmeldknop2{
+  width: 125px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  /*border: 1px solid #000000;*/
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  float: right;
+  margin-right: 300px;
+  margin-top: -50px;
+  }
+  
+  .aanmeldknoptekst{
+    margin-top: 19px;
+  }
+  
+  .homeknop1{
+    margin-top: 10px;
+    width:50px;
+    height:50px;
+  }
+  
+  .homeknop2{
+    margin-top: 10px;
+    width:50px;
+    height:50px;
+  }
+  
+  .homeknop3{
+    margin-top: 10px;
+    width:50px;
+    height:50px;
+  }
+  .homeknop4{
+    margin-top: 10px;
+    width:50px;
+    height:50px;
+    display: inline-block;
+  }
+  
+  #knoppen{
+    margin-right: 60px;
+    float: right;
+  }
+  
+  .homeknop{
+    margin-left:4px; 
+    margin-right:4px;
+  }
+  
+  .gridfoto1{
+  width:100%;
+  }
+  
+  .gridknop{
+  width: 125px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 50px;
+  }

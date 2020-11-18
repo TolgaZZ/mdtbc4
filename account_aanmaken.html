@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Account aanmaken</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="acc_aanmaken.css">
+ 
+<script type="text/javascript">
+	
+    function gemaakt(){
+
+        var naam        = document.getElementById("naam").value;
+		var achternaam  = document.getElementById("achternaam").value;
+		var mail       = document.getElementById("mail").value;
+		var wachtwoord  = document.getElementById("wachtwoord").value;
+		var wachtwoordh = document.getElementById("wachtwoordh").value;
+
+        if(naam == ""){
+            console.log ('Geen naam ingevuld')
+        }
+        else if(achternaam == ""){
+            console.log ('Geen achternaam ingevuld')
+        }
+        else if(mail == ""){
+            console.log ('Geen mail ingevuld')
+        }
+        else if(wachtwoord == ""){
+            console.log ('Geen wachtwoord ingevuld')
+        }
+        else if(wachtwoordh == ""){
+            console.log ('Geen achternaam')
+        }
+        else{
+        alert ('account is aangemaakt');
+        }
+    }
+	// function checkInput(){
+	// 	var naam        = document.getElementById("naam").value;
+	// 	var achternaam  = document.getElementById("achternaam").value;
+	// 	var mail       = document.getElementById("mail").value;
+	// 	var wachtwoord  = document.getElementById("wachtwoord").value;
+	// 	var wachtwoordh = document.getElementById("wachtwoordh").value;
+		
+	// 	if(naam == ""){
+	// 		alert('geen voornaam ingevuld!');
+	// 	} else if(achernaam == ""){
+	// 		alert('geen achternaam ingevuld!');
+	// 	} 
+    //     else if (mail == ""){
+	// 		alert('geen email aangegeven!');
+    //     }
+	// 	else if (wachtwoord == ""){
+	// 		alert('je zit niet op het GLR!');
+	// 	}
+    //     else if (wachtwoordh == ""){
+	// 		alert('je zit niet op het GLR!');
+	// 	}
+    //     else{
+	// 		// document.getElementById('output').value =
+	// 			alert('Je account is aangemaakt '); 	
+		
+	// 	}
+	// }
+</script>
+
+</head>
+<body>
+<header>
+    <a href="index.html">
+    <img class="fotoboven" src="fotos/glrlogo.png">
+    </a>
+    <button class="inlogknop1">
+      <a href="account_aanmaken.html">Aanmaken</a>
+    </button>	
+    <button class="inlogknop2">
+    <a href="login/login.php">Login</a>
+    </button>	
+</header>
+<div class="ruimte">	
+</div>
+<div class="l-wrap">
+
+    <form class="maken" action="account_aanmaken_verwerk.php" method="post">
+    <div class="aanmaken">
+        <h1 class="acc"> Account aanmaken</h1>
+        <div class="teksten"> 
+            <p>
+            <!-- <label for="naam">naam:</label> -->
+            <input class="input" placeholder="Naam" type="text" name="naam" id="naam" required="required">
+            </p>
+
+            <p>
+            <!-- <label for="achternaam">achternaam:</label> -->
+            <input class="input" placeholder="Achtenaam" type="text" name="achternaam" id="achternaam" required="required">
+            </p>    
+
+            <p>
+            <!-- <label for="email">E-mail:</label> -->
+            <input class="input" placeholder="Email" type="mail" name="email" id="mail" required="required">
+            </p>
+        </div>
+        <div class="teksten2">
+            <p>
+            <!-- <label for="wachtwoord">wachtwoord:</label> -->
+            <input class="input" placeholder="Wachtwoord" type="password" name="wachtwoord" id="wachtwoord" required="required">
+            </p>
+            <p>
+                    <!-- <label for="wachtwoord">wachtwoord:</label> -->
+                    <input class="input" placeholder="Wachtwoord herhalen" type="password" name="wachtwoordh" id="wachtwoordh" required="required">
+                    </p>
+        </div>
+ 
+        <div class="submit">
+            <input type="submit" name="aanmaken" id="aanmaken" onclick="gemaakt()" value="aanmaken">
+        </div>
+    </div>
+    </form>
+
+</div>
+<div class="info1">
+<p class="tekst1">
+Ben je op zoek naar een beroeps opdracht meld je<br>
+hier aan
+</p>
+<button class="aanmeldknop1"></button>	
+</div>	
+</div>
+<div class="info2">
+<p class="tekst2">
+Plaats een vacature<br>
+duizende mensen zullen het zien	
+</p>
+<button class="aanmeldknop2"></button>
+</div>
+</div>
+<footer>
+<img class="foto" src="fotos/glrlogo.png">
+<div class="footertekst">
+<p>
+General<br>
+Sign up<br>
+Vacatures<br>
+Voor werkgevers<br>
+Partners<br>
+Contact
+</p>
+</div>
+</footer>
+</body>
+</html>
